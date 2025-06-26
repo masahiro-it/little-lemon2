@@ -1,0 +1,26 @@
+header {
+    background-color: #F4CE14; /* Little Lemonのテーマカラー（黄色）*/
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* リストのスタイルをなしに */
+    display: flex; /* フレックスボックスを使用 */
+    justify-content: center; /* 中央揃え */
+    gap: 2rem; /* リストアイテム間のスペース */
+}
+
+nav ul li {
+    font-size: 1.2rem; /* フォントサイズの設定 */
+}
+
+nav ul li a {
+    text-decoration: none; /* 下線をなしに */
+    color: #333; /* リンクの色 */
+    font-weight: bold; /* 太字 */
+}
+
+nav ul li a:hover {
+    color: #495E57; /* ホバー時の色（ダークグリーン） */
+}
