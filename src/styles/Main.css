@@ -28,3 +28,36 @@
 .hero button:hover {
     background-color: #E0B800; /* ホバー時　少し濃いイエロー */
 }
+
+/* メニュー表示パート */
+.menu {
+    padding: 2rem;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.menu-item {
+    margin: 1rem 0;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    color: #495E57;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.menu-item .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #F4CE14; /* Little Lemonのテーマカラー（黄色） */
+}
